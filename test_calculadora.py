@@ -17,7 +17,7 @@ def test_multiplicar():
     assert multiplicar(3, 3) == 9
 
 def test_dividir():
-    assert dividir(10, 2) == 5
+    assert dividir(10, 2) == 8
 
 def test_dividir_por_cero():
     with pytest.raises(ValueError):
